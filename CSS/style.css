@@ -38,7 +38,7 @@ header .logo img {
 .right-header-block {
     float: right;
     display: inline-block;
-    font-family: '11031';
+    font-family: '11031', sans-serif;
 }
 
 .sales {
@@ -93,7 +93,7 @@ ul li a {
     text-decoration: none;
     color: #f1f1f1;
     padding-right: 35px;
-    font-family: '11031';
+    font-family: '11031', sans-serif;
 
 }
 
@@ -115,14 +115,7 @@ ul li a {
     width: 100%;
     height: 310px;
     margin-top: 35px;
-
 }
-
-.banner {
-    position: relative;
-
-}
-
 .banner a {
     position: absolute;
     background: url("../images/banner.png");
@@ -131,8 +124,8 @@ ul li a {
     text-transform: uppercase;
     padding: 0px 20px;
     line-height: 50px;
-    bottom: 22px;
-    left: 20px;
+    bottom: 250px;
+    left: 230px;
     text-decoration: none;
-    font-family: '11031';
+    font-family: '11031', sans-serif;
 }
