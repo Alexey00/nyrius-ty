@@ -117,15 +117,14 @@ ul li a {
     margin-top: 35px;
 }
 .banner a {
-    position: absolute;
+    position: relative;
     background: url("../images/banner.png");
     color: #FFF;
     font-size: 22px;
     text-transform: uppercase;
-    padding: 0px 20px;
-    line-height: 50px;
-    bottom: 250px;
-    left: 230px;
+    padding: 15px 20px;
+    bottom: 70px;
+    left: 21px;
     text-decoration: none;
     font-family: '11031', sans-serif;
 }
