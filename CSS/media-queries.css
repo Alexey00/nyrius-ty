@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1024px) {
+    .logo {
+        margin: auto;
+        display: block;
+
+    }
+
+    .banner {
+        margin: auto;
+        display: block;
+    }
+
+    .banner a {
+        margin: auto;
+
+    }
+}
