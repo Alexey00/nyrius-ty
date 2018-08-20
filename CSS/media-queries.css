@@ -1,17 +1,27 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
     .logo {
-        margin: auto;
-        display: block;
+
 
     }
 
     .banner {
-        margin: auto;
-        display: block;
+        max-width: 100%;
     }
 
     .banner a {
-        margin: auto;
+        max-width: 100%;
+        display: inline-block;
+    }
 
+    form {
+        float: left;
+    }
+
+    .shopping-card {
+        float: left;
+    }
+
+    .sales {
+        float: left;
     }
 }

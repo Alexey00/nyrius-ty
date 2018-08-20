@@ -128,3 +128,38 @@ ul li a {
     text-decoration: none;
     font-family: '11031', sans-serif;
 }
+
+section {
+    clear: both;
+}
+
+.owl-nav {
+    display: none;
+
+}
+
+.owl-dots {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    margin-top: 40px;
+
+}
+
+.slider .owl-dot.active span,
+.slider .owl-dot:hover span {
+    background-color: #2d2a2b;
+    border-color: #2d2a2b;
+}
+
+.slider .owl-dot span {
+    background: #535353;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    display: block;
+}
+
+
+
+
