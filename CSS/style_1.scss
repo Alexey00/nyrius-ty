@@ -1,0 +1,35 @@
+@import "style.css";
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+$green: green;
+
+a {
+  color: $green;
+}
+
+ul li a {
+  color: $green;
+  background: #00c6e3;
+}
+
+header {
+  .logo {
+    width: 200px;
+    @include max-screen(767px) {
+      width: 100px;
+    }
+  }
+  nav {
+    li {
+      @include max-screen(767px) {
+        display: block;
+      }
+    }
+  }
+}
+

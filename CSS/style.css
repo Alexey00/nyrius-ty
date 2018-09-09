@@ -149,16 +149,23 @@ section {
 
 .slider .owl-dot.active span,
 .slider .owl-dot:hover span {
-    background-color: #2d2a2b;
-    border-color: #2d2a2b;
+    background-color: #535353;
+    border-color: #555555;
+
 }
 
 .slider .owl-dot span {
-    background: #535353;
+    background: #aaaaaa;
     width: 8px;
     height: 8px;
-    border: 2px solid;
     display: block;
+
+}
+
+.slider .owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel button.owl-dot {
+    margin: 8px;
 }
 
 

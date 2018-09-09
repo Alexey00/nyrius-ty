@@ -1,1 +1,27 @@
+@import url(style.css);
+
+a {
+    color: green;
+}
+
+ul li a {
+    color: green;
+}
+
+header .logo {
+    width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    header .logo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header nav li {
+        display: block;
+    }
+}
+
 /*# sourceMappingURL=style_1.css.map */

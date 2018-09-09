@@ -87,6 +87,7 @@
     border: none;
     padding: 0 !important;
     font: inherit;
+    margin: 5px;
 }
 
 .owl-carousel.owl-loaded {
